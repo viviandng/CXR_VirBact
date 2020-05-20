@@ -1,27 +1,12 @@
-# Detecting Viral vs Bacterial Pneumonia from CXR with Deep Learning
-<pre>
-Domain             : Computer Vision, Machine Learning
-Sub-Domain         : Deep Learning, Image Recognition
-Techniques         : Deep Convolutional Neural Network, ImageNet, DenseNet121
-Application        : Image Recognition, Image Classification, Medical Imaging
-</pre>
-<pre>
-
-
+## Detecting Viral vs Bacterial Pneumonia from CXR with Deep Learning
 
 ### Items in Repository:
 
 - README.md - a summary of the repository content
-
 - Models_and_Results.ipynb - notebook with models and their performance
-
 - /Step01_Data_Cleaning- codes for transfering images into the correct folder
-
 - /Step02_Training- codes for models (Baseline dense, CNN, DenseNet121) 
-
 - [/presentation](https://github.com/viviandng/flatiron-project-4/blob/master/Presentation/Pneumonia%20X-Ray%20Detection.pdf) - pdf file of the final presentation
-
-  
 
 ### Prompt:
 
@@ -29,18 +14,6 @@ According to the [American Thoracic Society](https://www.thoracic.org/patients/p
 
 The goal of this project is to train and build a deep learning model that can classify whether a given patient has viral or bacterial pneumonia, given a chest x-ray image. This model will allow us to diagose the patient correctly and provide a proper course of treatment whether it is with or without antibiotics.
 
-#### Code
-<pre>
-GitHub Link      : <a href=https://github.com/viviandng/capstone1/blob/master/Step02_Training/Step02a_Dense_Baseline_Model_(data).ipynb>Model: Baseline, Densely Connected(GitHub) </a>
-GitHub Link      : <a href=https://github.com/viviandng/capstone1/blob/master/Step02_Training/Step02d_CNN_Model_%20(data_val).ipynb>Model: CNN (Github) </a>
-GitHub Link      : <a href=https://github.com/viviandng/capstone1/blob/master/Step02_Training/Step02e_DenseNet121_model_(data_val).ipynb>Model: DenseNet PreTrained (GitHub)</a>
-</pre>
-
-
-#### Dataset
-<pre>
-Dataset Links    : <a href=https://data.mendeley.com/datasets/rscbjbr9sj/2>Chest X-Ray Images (Pneumonia) Dataset (Original Dataset)</a>
-</pre>
 ### Results:
 
 | Model          | Accuracy | Precision |  F1   | **Recall** | Loss  |
@@ -48,6 +21,20 @@ Dataset Links    : <a href=https://data.mendeley.com/datasets/rscbjbr9sj/2>Chest
 | Baseline Dense |  0.725   |   0.720   | 0.800 |    .900    | 0.580 |
 | CNN            |  0.449   |   0.492   | 0.460 |   0.433    | 2.154 |
 | DenseNet121    |  0.458   |   0.458   | 0.458 |   0.458    | 1.174 |
+
+### Dataset
+
+https://data.mendeley.com/datasets/rscbjbr9sj/2
+
+- Train folder:
+  - 2,404 BACTERIAL
+  - 1,232 VIRAL
+- Val folder:
+  - 134 BACTERIAL
+  - 113 VIRAL
+- Test folder:
+  - 242 BACTERIAL
+  - 148 VIRAL
 
 ### Methodology:
 
@@ -64,17 +51,6 @@ Dataset Links    : <a href=https://data.mendeley.com/datasets/rscbjbr9sj/2>Chest
    - Create a model with transfer learning (DenseNet121)
 4.	Evaluate models by comparing accuracy, F1, precision, recall, loss scores
 5.	Test the data on the best model (highest F1 score)
-### Dataset:
-
-- Train folder:
-  - 2,404 BACTERIAL
-  - 1,232 VIRAL
-- Val folder:
-  - 134 BACTERIAL
-  - 113 VIRAL
-- Test folder:
-  - 242 BACTERIAL
-  - 148 VIRAL
 
 ### Recommendations:
 
@@ -86,18 +62,3 @@ Dataset Links    : <a href=https://data.mendeley.com/datasets/rscbjbr9sj/2>Chest
 - Improve the current model with additional chest x-ray data from adult patients 
 - Train model with other transfer learning models (ex: ResNet)
 - Explore machine learning solutions that detects whether a patient has heart failure or pneumonia, given chest x-ray
-
-
-#### Tools / Libraries
-<pre>
-Languages               : Python
-Tools/IDE               : Anaconda
-Libraries               : Keras, TensorFlow, Matplotlib, NumPy, os
-</pre>
-
-
-#### Dates
-<pre>
-Duration                : May 2020
-Last Update             : 05.20.2020
-</pre>
