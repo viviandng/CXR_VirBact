@@ -8,10 +8,6 @@ Application        : Image Recognition, Image Classification, Medical Imaging
 <pre>
 
 
-![coverphoto.png](https://github.com/viviandng/flatiron-project-4/blob/master/images/xray.png)
-
-
-
 
 ### Items in Repository:
 
@@ -28,7 +24,8 @@ Application        : Image Recognition, Image Classification, Medical Imaging
   
 
 ### Prompt:
-.According to the [American Thoracic Society](https://www.thoracic.org/patients/patient-resources/resources/top-pneumonia-facts.pdf), Pneumonia is the world’s leading cause of death among children under 5 years of age, killing approximately 2,400 children a day. Pnemonia is also the number 1 most common reason for children to be hospitalized in the US. The managment of this disease costs the US over $13B every year. Although there are adequate treatment (oral and IV antibiotics, IV fluids, oxygen and rehydration therapy), the cause of pneumonia must be identified and treated promptly to prevent the misuse or lack of antibiotics that will cause long term complications and death. </br>
+
+According to the [American Thoracic Society](https://www.thoracic.org/patients/patient-resources/resources/top-pneumonia-facts.pdf), Pneumonia is the world’s leading cause of death among children under 5 years of age, killing approximately 2,400 children a day. Pnemonia is also the number 1 most common reason for children to be hospitalized in the US. The managment of this disease costs the US over $13B every year. Although there are adequate treatment (oral and IV antibiotics, IV fluids, oxygen and rehydration therapy), the cause of pneumonia must be identified and treated promptly to prevent the misuse or lack of antibiotics that will cause long term complications and death. </br>
 
 The goal of this project is to train and build a deep learning model that can classify whether a given patient has viral or bacterial pneumonia, given a chest x-ray image. This model will allow us to diagose the patient correctly and provide a proper course of treatment whether it is with or without antibiotics.
 
