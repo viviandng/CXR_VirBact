@@ -7,8 +7,8 @@
 - README.md - a summary of the repository content
 - [/Step01_Data_Cleaning](https://github.com/viviandng/capstone1/tree/master/Step01_Data_Cleaning)- codes for transfering images into the correct folder
 - [/Step02_Training](https://github.com/viviandng/capstone1/tree/master/Step02_Training)- codes for models (Baseline dense, CNN, DenseNet121) 
-- /Step03_Testing- notebook with models and their performance
-- Final_notebook- final notebook narrated with the best model 
+- [/Step03_Testing](https://github.com/viviandng/capstone1/tree/master/Step03_Testing)- notebook with models and their performance
+- [Final_notebook](https://github.com/viviandng/capstone1/blob/master/Final_notebook.ipynb)- final notebook narrated with the best model 
 - [/presentation](https://github.com/viviandng/capstone1/tree/master/presentation)- pdf file of the final presentation
 - [/image](https://github.com/viviandng/capstone1/tree/master/images)- all images 
 
