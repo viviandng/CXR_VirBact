@@ -54,9 +54,8 @@ This deep learning model has been trained and validated using 4,273 pediatric CX
 
 ![confusion matrix.png](https://github.com/viviandng/capstone1/blob/master/images/confusion_matrix.png)
 
-### Demo with Baseline Dense Model
+### Demo with Baseline Dense Model:
 
-![confusion matrix.png](https://github.com/viviandng/capstone1/blob/master/images/confusion_matrix.png)
 For live web application, click [HERE](http://52.90.15.79:5000/)
 
 ### Recommendations:
@@ -71,7 +70,7 @@ For live web application, click [HERE](http://52.90.15.79:5000/)
 - Create a multi-label classifciation for normal, viral, bacterial pneumonia CXR
 - Explore machine learning solutions that detect whether a patient's pulmonary consolidation on CXR is due to heart failure or pneumonia
 
-### Link to resources
+### Link to resources:
 - [American Thoracic Society](https://www.thoracic.org/professionals/career-development/residents-medical-students/ats-reading-list/adult/pneumonia.php)
 - [Stanford CheXNet Model](https://stanfordmlgroup.github.io/projects/chexnet/)
 - [Udacity TensorFlow Free Course](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
