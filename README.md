@@ -18,7 +18,7 @@ According to the [American Thoracic Society](https://www.thoracic.org/patients/p
 
 The goal of this project is to train and build a deep learning model that can classify whether a given patient has viral or bacterial pneumonia, given a chest x-ray image. This model will allow us to diagose the patient correctly and provide a proper course of treatment whether it is with or without antibiotics.
 
-### Dataset
+### Dataset:
 
 This deep learning model has been trained and validated using 4,273 pediatric CXR images from the University of California San Diego's image classification dataset: [Kermany Daniel, Zhang Kang, Goldbaum Michael (2018). Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification. Mendeley Data, v2, http://dx.doi.org/10.17632/rscbjbr9sj.2](https://data.mendeley.com/datasets/rscbjbr9sj/2)
 
@@ -46,7 +46,7 @@ This deep learning model has been trained and validated using 4,273 pediatric CX
 | CNN            |  0.449   |   0.492   | 0.460 |   0.433    | 2.154 |
 | DenseNet121    |  0.458   |   0.458   | 0.458 |   0.458    | 1.174 |
 
-### Test Results with Baseline Dense Model
+### Test Results with Baseline Dense Model:
 
 | Accuracy | Precision |  F1   | **Recall** | Loss  |
 | :------: | :-------: | :---: | :--------: | ----- |
@@ -56,6 +56,9 @@ This deep learning model has been trained and validated using 4,273 pediatric CX
 
 ### Demo with Baseline Dense Model
 
+![confusion matrix.png](https://github.com/viviandng/capstone1/blob/master/images/confusion_matrix.png)
+For live web application, click [HERE](http://52.90.15.79:5000/)
+
 ### Recommendations:
 
 - Incorporate model to IT softwares (ex: epic) in hospital settings to assist health professionals diagnose the cause of pneumonia so patients can receive the proper treatment plan
@@ -64,7 +67,7 @@ This deep learning model has been trained and validated using 4,273 pediatric CX
 ### Next Steps:
 
 - Improve the current model with additional chest x-ray data from adult patients 
-- Train model with other transfer learning models (ex: ResNet)
+- Train model with other transfer learning models (ex: VGG16)
 - Create a multi-label classifciation for normal, viral, bacterial pneumonia CXR
 - Explore machine learning solutions that detect whether a patient's pulmonary consolidation on CXR is due to heart failure or pneumonia
 
@@ -73,3 +76,4 @@ This deep learning model has been trained and validated using 4,273 pediatric CX
 - [Stanford CheXNet Model](https://stanfordmlgroup.github.io/projects/chexnet/)
 - [Udacity TensorFlow Free Course](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
 - [Keras API](https://keras.io/api/)
+- [Web Application Code by Xin Fu](https://github.com/mtobeiyf/keras-flask-deploy-web-app) 
